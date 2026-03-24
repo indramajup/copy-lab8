@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}<title>หน้าแรกของเว็บไซต์</title>{% endblock %}
+
+{% block content %}
+    <h2 class="mb-4">สร้างเนื้อหา เกี่ยวกับ gallary</h2>
+    
+    <div class="row g-3">
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="{% static "1.webp" %}" class="card-img-top" alt="Coffee 1">
+            </div>
+        </div>
+        <div class="col-md-4"><div class="card shadow-sm"><img src="{% static "1.webp" %}" class="card-img-top" alt="Coffee 2"></div></div>
+        <div class="col-md-4"><div class="card shadow-sm"><img src="{% static "2.webp" %}" class="card-img-top" alt="Coffee 2"></div></div>
+        <div class="col-md-4"><div class="card shadow-sm"><img src="{% static "3.webp" %}" class="card-img-top" alt="Coffee 3"></div></div>
+        
+        <div class="col-md-4"><div class="card shadow-sm"><img src="{% static "4.webp" %}" class="card-img-top" alt="Coffee 4"></div></div>
+        <div class="col-md-4"><div class="card shadow-sm"><img src="{% static "5.webp" %}" class="card-img-top" alt="Coffee 5"></div></div>
+        <div class="col-md-4"><div class="card shadow-sm"><img src="{% static "6.webp" %}" class="card-img-top" alt="Coffee 6"></div></div>
+    </div>
+{% endblock %}
